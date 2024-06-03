@@ -1,0 +1,115 @@
+body {
+    background: #dbe0e0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+table.weather-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table.weather-table th, table.weather-table td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+table.weather-table th {
+    background-color: #f2f2f2;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.logout-link {
+    float: right;
+    margin-top: 10px;
+    background: #121111;
+    padding: 10px 15px;
+    color: #d64949;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.logout-link:hover {
+    opacity: 0.7;
+}
+
+.login-container {
+    width: 500px;
+    margin: 0 auto;
+    border: 2px solid #1d0268;
+    padding: 30px;
+    background: #9faddc;
+    border-radius: 15px;
+}
+
+.login-container h2 {
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.login-container input {
+    display: block;
+    border: 2px solid #101010;
+    width: 95%;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+.login-container label {
+    color: #0a0909;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.login-container button {
+    float: right;
+    background: #f1efef;
+    padding: 10px 15px;
+    color: #151414;
+    border-radius: 5px;
+    margin-right: 10px;
+    border: none;
+}
+
+.login-container button:hover {
+    opacity: 0.9;
+}
+
+.login-container .error {
+    background: #F2DEDE;
+    color: #A94442;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+.login-container h1 {
+    text-align: left;
+    color: #151e16;
+}
+
+.login-container a {
+    float: right;
+    background: #121111;
+    padding: 10px 15px;
+    color: #d64949;
+    border-radius: 5px;
+    margin-right: 10px;
+    border: none;
+    text-decoration: none;
+}
+
+.login-container a:hover {
+    opacity: 0.7;
+}
